@@ -7,6 +7,9 @@
 	border:3px solid black;
 	height: 60vh;
 }
+.first-section .caja-navegacion ul li a{
+
+}
 .first-section .caja-imagen{
 	background-image: url(../img/onepunch-man-1280x640.jpg);
 	background-size: cover;
@@ -17,6 +20,7 @@
 	margin-left: 30px;
 	width: 72%;
 }
+
 .first-section .caja-imagen-movil{
 	background-image: url(../img/onepunch-man-1280x640.jpg);
 	background-size: cover;
@@ -28,15 +32,51 @@
 }
 .first-section .caja-sign{
 	background-color: rgba(213, 91, 62, .5);
-	width: 43%;
+	width: 44%;
 	height: 40vh;
 	margin-top: 10vh;
 	margin-bottom: 10vh;
 	color: #E4E4E4;
 }
+.first-section .caja-sign h1{
+	color: #D55B3E;
+}
+.first-section .caja-sign p{
+	color: #E4E4E4;
+	font-size: 20px;
+}
+.first-section .caja-sign .boton-registro button,
+.first-section .caja-sign .boton-inicio button{
+	background-color: #E4E4E4;
+	border: 2px solid #D55B3E;
+	border-radius: 4px;
+	color: #D55B3E;
+	margin-top: 10px;
+}
+.first-section .caja-sign .little-text{
+	color: #E4E4E4;
+	width: 30%;
+	margin-top: 10px;
+}
+.first-section .caja-sign-movil{
+	background-color: rgba(213, 91, 62, .5);
+	width: 44%;
+	height: 40vh;
+	margin-top: 10vh;
+	margin-bottom: 10vh;
+	color: #E4E4E4;
+}
+.first-section .caja-sign-movil .boton-registro-movil{
 
+}
+.first-section .caja-sign-movil .boton-inicio-movil{
+
+}
+.first-section .caja-sign .little-text-movil{
+
+}
 .second-section .texto-navegacion{
 	border: 3px solid black;
-	height: 5vh;
+	height: 7vh;
 	margin-top: 30px;
 }
