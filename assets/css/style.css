@@ -109,3 +109,10 @@
 	height: 40vh;
 	border: 3px solid black;
 }
+.second-section .imagenes-novedades-movil a img,
+.second-section .imagenes-populares-movil a img{
+	margin-top: 30px;
+	width: 15vh;
+	height: 20vh;
+	border: 3px solid black;
+}
