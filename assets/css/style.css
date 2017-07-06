@@ -11,7 +11,7 @@
 
 }
 .first-section .caja-imagen{
-	background-image: url(../img/onepunch-man-1280x640.jpg);
+	background-image: url(../img/Portada/onepunch-man-1280x640.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -22,7 +22,7 @@
 }
 
 .first-section .caja-imagen-movil{
-	background-image: url(../img/onepunch-man-1280x640.jpg);
+	background-image: url(../img/Portada/onepunch-man-1280x640.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -32,7 +32,7 @@
 }
 .first-section .caja-sign{
 	background-color: rgba(213, 91, 62, .5);
-	width: 44%;
+	width: 43,9999999%;
 	height: 40vh;
 	margin-top: 10vh;
 	margin-bottom: 10vh;
@@ -60,23 +60,52 @@
 }
 .first-section .caja-sign-movil{
 	background-color: rgba(213, 91, 62, .5);
-	width: 44%;
+	width: 43,999999999%;
 	height: 40vh;
 	margin-top: 10vh;
 	margin-bottom: 10vh;
 	color: #E4E4E4;
 }
-.first-section .caja-sign-movil .boton-registro-movil{
+.first-section .caja-sign-movil h1{
+	color: #D55B3E;
+}
+.first-section .caja-sign-movil p{
+	color: #E4E4E4;
+	font-size: 18px;
+	text-align: justify;
+}
+.first-section .caja-sign-movil .boton-registro-movil button,
+.first-section .caja-sign-movil .boton-inicio-movil button{
+	background-color: #E4E4E4;
+	border: 2px solid #D55B3E;
+	border-radius: 4px;
+	color: #D55B3E;
+	margin-top: 10px;
+}
+
+.first-section .caja-sign-movil .texto-medio-movil{
+	width: 28%;
+	margin-top: 10px;
+	color: #E4E4E4;
 
 }
-.first-section .caja-sign-movil .boton-inicio-movil{
-
-}
-.first-section .caja-sign .little-text-movil{
-
-}
-.second-section .texto-navegacion{
+.second-section .texto-novedades,
+.second-section .texto-populares{
 	border: 3px solid black;
-	height: 7vh;
+	height: 6vh;
 	margin-top: 30px;
+}
+.second-section .texto-novedades a,
+.second-section .texto-populares a{
+	color: black;
+	font-size: 24px;
+	margin-left: 40px;
+	margin-top: 10px;
+}
+.second-section .imagenes-novedades a img,
+.second-section .imagenes-populares a img{
+	margin-top: 30px;
+	width: 30vh;
+	height: 40vh;
+	border: 3px solid black;
 }
