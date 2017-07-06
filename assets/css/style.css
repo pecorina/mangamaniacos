@@ -1,21 +1,58 @@
+
 *{
 	margin:0;
 	padding: 0;
 	font-family: 'Fresca', sans-serif;
+	box-sizing: border-box;
 }
-.first-section .caja-navegacion{
-	border:3px solid black;
+body{
+	background-color: #8ED2C9;
+}
+.navbar-inverse{
+	background-color: #045757;
+}
+.navbar-brand {
+	color: #fff;
+}
+.navbar-brand h2 {
+	color: whitesmoke;
+	margin: 0;
+}
+.search-box {
+    margin: 25px 0 0px;
+    float: right;
+}
+.search-box .icon {
+    margin: 0 2% 0 0;
+    font-size: 16px;
+    color: #777;
+}
+#search {
+    width: 85%;
+    padding: 2px 5px;
+}
+.search-box input {
+	border-radius: 5px;
+	border: none;
+}
+.navbar-header {
+    min-height: 55px;
+}
+.caja-navegacion{
+	border:3px solid #044343;
 	height: 60vh;
+	background-color: #00AAA0;
 }
-.first-section .caja-navegacion ul li a{
-
+.caja-navegacion ul li a{
+	color: whitesmoke;
+	font-size: 2rem;
 }
 .first-section .caja-imagen{
 	background-image: url(../img/Portada/onepunch-man-1280x640.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	border:3px solid black;
+	border:3px solid #044343;
 	height: 60vh;
 	margin-left: 30px;
 	width: 72%;
@@ -26,8 +63,8 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	border:3px solid black;
-	height: 60vh;
+	border:3px solid #044343;
+	height: 40vh;
 	width: 100%;
 }
 .first-section .caja-sign{
@@ -60,18 +97,19 @@
 }
 .first-section .caja-sign-movil{
 	background-color: rgba(213, 91, 62, .5);
-	width: 43,999999999%;
-	height: 40vh;
-	margin-top: 10vh;
-	margin-bottom: 10vh;
+	width: 77%;
+	height: 30vh;
+	margin-top: 7vh;
+	margin-bottom: 5vh;
 	color: #E4E4E4;
 }
 .first-section .caja-sign-movil h1{
 	color: #D55B3E;
+	font-size: 2,5rem;
 }
 .first-section .caja-sign-movil p{
 	color: #E4E4E4;
-	font-size: 18px;
+	font-size: 1,75rem;
 	text-align: justify;
 }
 .first-section .caja-sign-movil .boton-registro-movil button,
@@ -80,24 +118,20 @@
 	border: 2px solid #D55B3E;
 	border-radius: 4px;
 	color: #D55B3E;
-	margin-top: 10px;
+	font-size: 1,5rem;
+	margin-top: 15px;
 }
 
-.first-section .caja-sign-movil .texto-medio-movil{
-	width: 28%;
-	margin-top: 10px;
-	color: #E4E4E4;
-
-}
 .second-section .texto-novedades,
 .second-section .texto-populares{
 	border: 3px solid black;
 	height: 6vh;
 	margin-top: 30px;
+	background-color: #00AAA0;
 }
 .second-section .texto-novedades a,
 .second-section .texto-populares a{
-	color: black;
+	color: whitesmoke;
 	font-size: 24px;
 	margin-left: 40px;
 	margin-top: 10px;
@@ -107,12 +141,81 @@
 	margin-top: 30px;
 	width: 30vh;
 	height: 40vh;
-	border: 3px solid black;
+	border: 3px solid #044343;
 }
-.second-section .imagenes-novedades-movil a img,
-.second-section .imagenes-populares-movil a img{
-	margin-top: 30px;
-	width: 15vh;
-	height: 20vh;
+.second-section .imagenes-populares a img{
+	margin-bottom: 30px;
+}
+.second-section .texto-novedades-movil,
+.second-section .texto-populares-movil{
+	border: 3px solid #044343;
+	height: 5vh;
+	margin-top: 10px;
+}
+.second-section .texto-novedades-movil a,
+.second-section .texto-populares-movil a{
+	color: #D55B3E;
+	font-size: 18px;
+	margin-left: 15px;
+	margin-top: 10px;
+}
+.second-section .imagenes-novedades-movil .imagen,
+.second-section .imagenes-populares-movil .imagen{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 0;
+	max-height: 130px;
+	overflow: hidden;
+	display: inline-block;
+}
+.second-section .imagenes-populares-movil .imagen .naruto{
+	height: 130px;
+}
+footer{
+	padding-top: 15px;
+	padding-bottom: 30px;
+	border: 3px solid #044343;
+	background-color: #045757;
+}
+footer h3, footer h5{
+	color: grey;
+}
+footer .caja-final .caja-contacto a,
+footer .links-contacto li a{
+	color: whitesmoke;
+}
+footer .caja-logos a i{
+	color: whitesmoke;
+	font-size: 2rem;
+}
+footer .footer-movil .contacto-movil h3,
+footer .footer-movil .contacto-movil h5{
+	color: grey;
+}
+footer .footer-movil .contacto-movil ul li a,
+footer .footer-movil .logos-movil a{
+	color: whitesmoke;
+}
+.seccion-catalogo .texto-catalogo{
 	border: 3px solid black;
+	height: 6vh;
+	background-color: #00AAA0;
+
+}
+.seccion-catalogo .texto-catalogo a{
+	color: whitesmoke;
+	font-size: 24px;
+	margin-left: 40px;
+	margin-top: 10px;
+}
+.seccion-catalogo .imagenes-catalogo .imagen{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 0;
+	overflow: hidden;
+	display: inline-block;
+}
+.seccion-catalogo .imagenes-catalogo .imagen img {
+    width: 90%;
+    height: 322px;
 }
