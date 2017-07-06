@@ -3,7 +3,40 @@
 	padding: 0;
 	font-family: 'Fresca', sans-serif;
 }
+.first-section .caja-navegacion{
+	border:3px solid black;
+	height: 60vh;
+}
+.first-section .caja-imagen{
+	background-image: url(../img/onepunch-man-1280x640.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border:3px solid black;
+	height: 60vh;
+	margin-left: 30px;
+	width: 72%;
+}
+.first-section .caja-imagen-movil{
+	background-image: url(../img/onepunch-man-1280x640.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border:3px solid black;
+	height: 60vh;
+	width: 100%;
+}
+.first-section .caja-sign{
+	background-color: rgba(213, 91, 62, .5);
+	width: 43%;
+	height: 40vh;
+	margin-top: 10vh;
+	margin-bottom: 10vh;
+	color: #E4E4E4;
+}
 
-#search{
-	width: 20%;
+.second-section .texto-navegacion{
+	border: 3px solid black;
+	height: 5vh;
+	margin-top: 30px;
 }
